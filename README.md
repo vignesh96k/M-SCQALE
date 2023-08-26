@@ -16,7 +16,7 @@ Vignesh Kannan, Sameer Malik, Nithin Babu and Rajiv Soundararajan
 
 </p>
 
-![Architecture](./imgs/MainArch3.jpg)
+![Architecture](./M-SCQALE_block.JPG)
 
 
 ## Citation
