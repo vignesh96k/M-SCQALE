@@ -38,6 +38,13 @@ conda install pytorch==1.10.1 torchvision==0.11.2 cudatoolkit=11.3 -c pytorch -c
 conda install --file requirements_extra.txt -c conda-forge
 ```
 
+## Training
+
+To train the model on , run the following:
+```
+python ./synthetic_pretraining.py --log
+```
+
 
 ## Citation
 If you find this work useful for your research, please cite our paper:
