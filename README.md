@@ -20,29 +20,12 @@ Vignesh Kannan, Sameer Malik, Nithin Babu and Rajiv Soundararajan
 
 ![Architecture](./M-SCQALE_block.JPG)
 
-## Environment
-The code has been tested with:
-- Python **3.6.13**
-- Pytorch **1.10.1**
-- Torchvision **0.11.2**
-- CUDA **11.3.1**
-
-Set up an environment with Python **3.6.13** and install all required libraries with the ```requirements.txt``` file. If you use conda, follow the instructions below:
-
-### Setting up conda environment
-Execute the following lines one by one on the terminal.
-```
-conda create --name mscqale python=3.6.13
-conda activate mscqale
-conda install pytorch==1.10.1 torchvision==0.11.2 cudatoolkit=11.3 -c pytorch -c conda-forge
-conda install --file requirements_extra.txt -c conda-forge
-```
 
 ## Training
 
-To train the model on , run the following:
+To train the model, run the following:
 ```
-python ./synthetic_pretraining.py --log
+bash runtrain.sh 
 ```
 
 
