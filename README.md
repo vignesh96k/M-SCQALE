@@ -27,7 +27,7 @@ To train the model, run the following:
 ```
 bash runtrain.sh
 ```
-### Testing 
+## Testing 
 Testing code for evaluating the M-SCQALE model.
 ```
 python EVAL.py
