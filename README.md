@@ -25,9 +25,15 @@ Vignesh Kannan, Sameer Malik, Nithin Babu and Rajiv Soundararajan
 
 To train the model, run the following:
 ```
-bash runtrain.sh 
-```
+bash runtrain.sh
 
+```
+### Testing 
+Testing code for evaluating the M-SCQALE model.
+```
+python EVAL.py
+
+```
 
 ## Citation
 If you find this work useful for your research, please cite our paper:
