@@ -19,7 +19,21 @@ Vignesh Kannan, Sameer Malik, Nithin Babu and Rajiv Soundararajan
 </p>
 
 ![Architecture](./M-SCQALE_block.JPG)
+## Environment
+The code has been tested with:
+- Python **3.6.13**
+- Pytorch **1.10.1**
+- Torchvision **0.11.2**
+- CUDA **11.3.1**
 
+
+
+### Setting up conda environment
+Execute the following lines for setting up the conda environment
+```
+conda create env -f M-SCQALE.yml
+conda activate M-SCQALE
+```
 
 ## Training
 
