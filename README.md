@@ -20,15 +20,15 @@ Vignesh Kannan, Sameer Malik, Nithin Babu and Rajiv Soundararajan
 
 ![Architecture](./M-SCQALE_block.JPG)
 ## Environment
-The code has been tested with:
+Our code has been tested with the following env specs:
 - Python **3.6.13**
+- CUDA **11.3.1**
 - Pytorch **1.10.1**
 - Torchvision **0.11.2**
-- CUDA **11.3.1**
 
 
 
-### Setting up conda environment
+### Setting up Conda environment
 Execute the following lines for setting up the conda environment
 ```
 conda create env -f M-SCQALE.yml
@@ -41,10 +41,22 @@ To train the model, run the following:
 ```
 bash runtrain.sh
 ```
+
+## Performance evaluation
+### M-SCQALE Pre-trained weights
+Google Drive link for pre-trained weights:
+- M-SCQALE [link](https://drive.google.com/file/d/1gn2beZEcI67FgcXg_I6wYNAsqLw3qOmx/view?usp=sharing)
+
+Extract the downloaded zip file in base folder.
+
+
+### Setting up pristine patches
+Link for pre-selected pristine patches [link](https://drive.google.com/file/d/1aZYVpSn4Z_b_74J8_37sCRqQshDHhtFd/view?usp=drive_link).
+Copy the downloaded file to the base folder
 ## Testing 
 Testing code for evaluating the M-SCQALE model.
 ```
-python EVAL.py
+python EVAL.py --loadpatches
 ```
 
 ## Citation
